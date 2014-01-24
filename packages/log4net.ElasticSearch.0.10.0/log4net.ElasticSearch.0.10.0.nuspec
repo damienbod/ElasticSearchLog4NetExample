@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>log4net.ElasticSearch</id>
+    <version>0.10.0</version>
+    <title>log4net.ElasticSearch</title>
+    <authors>JP Toto</authors>
+    <owners>JP Toto</owners>
+    <licenseUrl>https://github.com/jptoto/log4net.ElasticSearch/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/jptoto/log4net.ElasticSearch</projectUrl>
+    <iconUrl>http://nest.azurewebsites.net/images/nuget-icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>log4net.ElasticSearch is a log4net adapter for easy logging of exceptions and messages to ElasticSearch indices.</description>
+    <releaseNotes>Updated to dynamic for the LogEvent to facility properties (Tomas Jansson)</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <language />
+    <tags>log logging exception elasticsearch log4net</tags>
+    <dependencies>
+      <dependency id="log4net" version="1.2.11.0" />
+      <dependency id="NEST" version="0.11.4.0" />
+    </dependencies>
+  </metadata>
+</package>
